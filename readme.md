@@ -39,3 +39,11 @@
 	+ string
 
 + [void KeyPressed](https://processing.org/reference/keyPressed_.html)
+
+## Extended Resources and Opportunities
+
++ [Dan Shiffman's Learning Processing Book](http://learningprocessing.com/)
++ [Dan Shiffman's YouTube tutorial series](https://www.youtube.com/user/shiffman/videos?app=desktop)
++ [School for Poetic Computation](https://sfpc.io/)
++ [ITP Summer Camp](https://itp.nyu.edu/camp2019/)
++ [Processing Community Day NYC in February](https://processing.nyc/)
