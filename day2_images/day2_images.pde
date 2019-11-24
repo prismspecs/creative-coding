@@ -1,3 +1,5 @@
+// github.com/prismspecs/creative-coding
+
 // create a variable to store img
 PImage myImg;
 
