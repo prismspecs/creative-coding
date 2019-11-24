@@ -38,6 +38,18 @@
 	+ float
 	+ string
 
++ Conditional Logic
+	+ if
+
++ Exercises
+	+ Intro to variables
+	+ Increase brush size
+	+ Use variables to store randomly generated numbers
+	+ Augment drawing apps using variables
+	+ Fade in/out background
+	+ Bouncing ball
+	+ wiggle
+
 + [void KeyPressed](https://processing.org/reference/keyPressed_.html)
 
 ## Extended Resources and Opportunities
@@ -47,3 +59,4 @@
 + [School for Poetic Computation](https://sfpc.io/)
 + [ITP Summer Camp](https://itp.nyu.edu/camp2019/)
 + [Processing Community Day NYC in February](https://processing.nyc/)
++ [Creative Code Fest at NYU/ITP on Dec 8](http://ccfest.rocks/nyc)
