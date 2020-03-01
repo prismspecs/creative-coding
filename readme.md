@@ -1,62 +1,7 @@
-# creative-coding
+This is a landing page for the various courses I teach on Creative Coding outside of traditional academic settings.
 
-## Day 1
-
-### Intro
-
-+ [Download Processing](https://processing.org/download/)
-+ Course & Personal Introductions
-+ Pixel theory, color theory
-
-### Processing Lab
-
-+ Functions used ([use the reference to review](https://processing.org/reference/)):
-	+ background
-	+ fill()
-	+ stroke()
-	+ noStroke()
-	+ line()
-	+ size()
-	+ setup()
-	+ draw()
-	+ mouseX, mouseY
-	+ width, height
-	+ random()
-
-## Day 2
-
-### Processing Lab
-
-+ Functions used ([use the reference to review](https://processing.org/reference/)):
-	+ [map](https://processing.org/reference/map_.html)
-	+ [random](https://processing.org/reference/random_.html)
-	+ [setup() and draw()](https://www.youtube.com/watch?v=o8dffrZ86gs)
-	+ keyPressed
-
-+ Variable types
-	+ int
-	+ float
-	+ string
-
-+ Conditional Logic
-	+ if
-
-+ Exercises
-	+ Intro to variables
-	+ Increase brush size
-	+ Use variables to store randomly generated numbers
-	+ Augment drawing apps using variables
-	+ Fade in/out background
-	+ Bouncing ball
-	+ wiggle
-
-+ [void KeyPressed](https://processing.org/reference/keyPressed_.html)
-
-## Extended Resources and Opportunities
-
-+ [Dan Shiffman's Learning Processing Book](http://learningprocessing.com/)
-+ [Dan Shiffman's YouTube tutorial series](https://www.youtube.com/user/shiffman/videos?app=desktop)
-+ [School for Poetic Computation](https://sfpc.io/)
-+ [ITP Summer Camp](https://itp.nyu.edu/camp2019/)
-+ [Processing Community Day NYC in February](https://processing.nyc/)
-+ [Creative Code Fest at NYU/ITP on Dec 8](http://ccfest.rocks/nyc)
++ [City College 1-hour Processing demo](/ccny/)
++ [2-day, 8-hour Processing Course](/processing-8-hours/)
+  + [Taught at Pioneer Works](https://pioneerworks.org/classes/creative-coding/)
++ [2-hour Unity Course](/unity-2-hours/)
+  + Taught at EYEspeak
