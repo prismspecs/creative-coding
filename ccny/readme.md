@@ -3,6 +3,7 @@
 + [Download Processing](https://processing.org/download/)
 + Introductions
 + Pixel theory, color theory
+
 ![Magnified computer screen](screen-microscope.jpg)
 
 ## Processing Lab
