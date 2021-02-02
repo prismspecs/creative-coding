@@ -1,4 +1,4 @@
-# creative-coding
+# akademie schloss solitude coding workshop
 
 ## Day 1 (31 Jan 2021)
 
