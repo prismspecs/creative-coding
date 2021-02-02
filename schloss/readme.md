@@ -43,7 +43,7 @@
 	+ random()
 
 
-*** ignore the shit below this line ***
+<!-- ignore the shit below this line 
 
 + Functions used ([use the reference to review](https://processing.org/reference/)):
 	+ [map](https://processing.org/reference/map_.html)
@@ -78,3 +78,5 @@
 + [ITP Summer Camp](https://itp.nyu.edu/camp2019/)
 + [Processing Community Day NYC in February](https://processing.nyc/)
 + [Creative Code Fest at NYU/ITP on Dec 8](http://ccfest.rocks/nyc)
+
+-->
