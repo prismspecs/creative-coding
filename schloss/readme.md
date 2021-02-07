@@ -30,6 +30,7 @@
 
 ### Big Ideas
 
++ Show & Tell
 + Interaction
 + Randomness
 + Variables (time permitting)
@@ -41,7 +42,8 @@
 	+ draw()
 	+ mouseX, mouseY
 	+ random()
-
+	+ println()
+	+ fullScreen()
 
 <!-- ignore the shit below this line 
 
