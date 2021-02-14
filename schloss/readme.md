@@ -1,5 +1,12 @@
 # akademie schloss solitude coding workshop
 
+## Videos for your review
+
++ [3.2 Built-in Variables](https://www.youtube.com/watch?v=ibW4oA7-n8I&index=2&list=PLRqwX-V7Uu6by61pbhdvyEpIeymlmnXzD)
++ [3.3 Events](https://www.youtube.com/watch?v=UvSjtiW-RH8&index=3&list=PLRqwX-V7Uu6by61pbhdvyEpIeymlmnXzD)
++ [4.1 Variables](https://www.youtube.com/watch?v=B-ycSR3ntik)
++ [5 Conditional Logic](https://www.youtube.com/watch?v=wsI6N9hfW7E&list=PLRqwX-V7Uu6YqykuLs00261JCqnL_NNZ_)
+
 ## Day 1 (31 Jan 2021)
 
 ### Big Ideas
