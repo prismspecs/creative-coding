@@ -45,8 +45,32 @@
 	+ println()
 	+ fullScreen()
 
-<!-- ignore the shit below this line 
+### Homework
 
++ Create a "drawing app" or an interactive sketch that responds visually to the mouse moving or being clicked.
+
+
+## Day 3
+
+### Big Ideas
+
++ Show & Tell
++ Variables
++ Conditional Logic
+
+### Processing Lab
+
++ Functions used ([use the reference to review](https://processing.org/reference/)):
+	+ if()
+	+ for() (time permitting)
+
+### Homework
+
+
+
+
+
+<!-- ignore the shit below this line 
 + Functions used ([use the reference to review](https://processing.org/reference/)):
 	+ [map](https://processing.org/reference/map_.html)
 	+ [random](https://processing.org/reference/random_.html)
