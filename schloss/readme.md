@@ -6,6 +6,7 @@
 + [3.3 Events](https://www.youtube.com/watch?v=UvSjtiW-RH8&index=3&list=PLRqwX-V7Uu6by61pbhdvyEpIeymlmnXzD)
 + [4.1 Variables](https://www.youtube.com/watch?v=B-ycSR3ntik)
 + [5 Conditional Logic](https://www.youtube.com/watch?v=wsI6N9hfW7E&list=PLRqwX-V7Uu6YqykuLs00261JCqnL_NNZ_)
++ [5.2 If, Else](https://www.youtube.com/watch?v=mVq7Ms01RjA&list=PLRqwX-V7Uu6YqykuLs00261JCqnL_NNZ_&index=2)
 
 ## Day 1 (31 Jan 2021)
 
@@ -69,13 +70,19 @@
 
 + Functions used ([use the reference to review](https://processing.org/reference/)):
 	+ if()
+	+ more variables
 	+ for() (time permitting)
 
 ### Homework
 
++ Create a version of your previous homework (interactive sketch that responds to mouse movement), but make it move automatically, without any mouse input. To do this use variables!
++ Continue the "ball bouncing" sketch and add a second ball that moves independently!
 
+## Day 4
 
+### Big Ideas
 
++ Loops maybe? Gosh I don't know yet
 
 <!-- ignore the shit below this line 
 + Functions used ([use the reference to review](https://processing.org/reference/)):
