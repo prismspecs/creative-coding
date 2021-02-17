@@ -1,54 +1,88 @@
 import processing.video.*;
 
-color black = color(0);
-color white = color(255);
 int numPixels;
+int[] backgroundPixels;
 Capture video;
 
+
 void setup() {
-  size(640, 480); // Change size to 320 x 240 if too slow at 640 x 480
-  strokeWeight(5);
+  size(640, 480); 
   
-  // This the default video input, see the GettingStartedCapture 
-  // example if it creates an error
+  //video = new Capture(this, 160, 120);
   video = new Capture(this, width, height);
   
   // Start capturing the images from the camera
-  video.start(); 
+  video.start();  
   
   numPixels = video.width * video.height;
-  noCursor();
-  smooth();
+  
+  // create array to store the background image
+  backgroundPixels = new int[numPixels];
+  // make the pixels[] array available for direct manipulation
+  loadPixels();
 }
 
 void draw() {
   if (video.available()) {
-    video.read();
+    video.read(); // read a new video frame
+    video.loadPixels(); // make the pixels of video available
+    
+    // difference between the current frame and the stored background
+    int presenceSum = 0;
+    for (int i = 0; i < numPixels; i++) { // For each pixel in the video frame...
+      // Fetch the current color in that location, and also the color
+      // of the background in that spot
+      color currColor = video.pixels[i];
+      color bkgdColor = backgroundPixels[i];
+      // Extract the red, green, and blue components of the current pixel's color
+      int currR = (currColor >> 16) & 0xFF;
+      int currG = (currColor >> 8) & 0xFF;
+      int currB = currColor & 0xFF;
+      // Extract the red, green, and blue components of the background pixel's color
+      int bkgdR = (bkgdColor >> 16) & 0xFF;
+      int bkgdG = (bkgdColor >> 8) & 0xFF;
+      int bkgdB = bkgdColor & 0xFF;
+      // Compute the difference of the red, green, and blue values
+      int diffR = abs(currR - bkgdR);
+      int diffG = abs(currG - bkgdG);
+      int diffB = abs(currB - bkgdB);
+      // Add these differences to the running tally
+      presenceSum += diffR + diffG + diffB;
+      // Render the difference image to the screen
+      //pixels[i] = color(diffR, diffG, diffB);
+      // The following line does the same thing much faster, but is more technical
+      pixels[i] = 0xFF000000 | (diffR << 16) | (diffG << 8) | diffB;
+    }
+    updatePixels(); // Notify that the pixels[] array has changed
+    //println(presenceSum); // Print out the total amount of movement
+    
+    // now threshold that image
+    PGraphics bwImage = createGraphics(video.width,video.height);
+    bwImage.beginDraw();
+    bwImage.loadPixels();
     video.loadPixels();
-    int threshold = 127; // Set the threshold value
-    float pixelBrightness; // Declare variable to store a pixel's color
-    // Turn each pixel in the video frame black or white depending on its brightness
-    loadPixels();
+    int threshold = 127; // set the threshold value
+    float pixelBrightness; // declare variable to store a pixel's color
+    // turn each pixel in the video frame black or white depending on its brightness
     for (int i = 0; i < numPixels; i++) {
       pixelBrightness = brightness(video.pixels[i]);
       if (pixelBrightness > threshold) { // If the pixel is brighter than the
-        pixels[i] = white; // threshold value, make it white
+        bwImage.pixels[i] = color(255); // threshold value, make it white
       } 
       else { // Otherwise,
-        pixels[i] = black; // make it black
+        bwImage.pixels[i] = color(0); // make it black
       }
     }
-    updatePixels();
-    // Test a location to see where it is contained. Fetch the pixel at the test
-    // location (the cursor), and compute its brightness
-    int testValue = get(mouseX, mouseY);
-    float testBrightness = brightness(testValue);
-    if (testBrightness > threshold) { // If the test location is brighter than
-      fill(black); // the threshold set the fill to black
-    } 
-    else { // Otherwise,
-      fill(white); // set the fill to white
-    }
-    ellipse(mouseX, mouseY, 20, 20);
+    bwImage.updatePixels();
+    image(bwImage,0,0);
   }
+  
+  // 
+}
+
+// When a key is pressed, capture the background image into the backgroundPixels
+// buffer, by copying each of the current frame's pixels into it.
+void keyPressed() {
+  video.loadPixels();
+  arraycopy(video.pixels, backgroundPixels);
 }
