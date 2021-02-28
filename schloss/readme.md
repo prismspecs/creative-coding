@@ -82,7 +82,30 @@
 
 ### Big Ideas
 
-+ Loops maybe? Gosh I don't know yet
++ For Loops
+
+### Processing Lab
+
++ Functions used ([use the reference to review](https://processing.org/reference/)):
+	+ for()
+	+ line()
+
+### Homework
+
++ Create a riff on Music Mouse. Focus on graphically creating the grid and mouse interaction, and if you are feeling saucy add sound or other elements
+
+## Day 5
+
+Holy fuck it's day 5
+
+### Big Ideas
+
++ Return of the IF
++ Objects
+
+### Processing Lab
+
+
 
 <!-- ignore the shit below this line 
 + Functions used ([use the reference to review](https://processing.org/reference/)):
