@@ -96,14 +96,27 @@
 
 ## Day 5
 
-Holy fuck it's day 5
+### Big Ideas
+
++ Objects
++ Arrays
++ Creating your own Functions
+
+### Processing Lab
+
+## Day 6
 
 ### Big Ideas
 
-+ Return of the IF
-+ Objects
++ Week 5 Review
 
 ### Processing Lab
+
++ Using arrays to make a random selection from a discrete set
++ Creating bubbles with life cycles using Arrays of Objects
+
+
+
 
 
 
