@@ -115,7 +115,9 @@
 + Using arrays to make a random selection from a discrete set
 + Creating bubbles with life cycles using Arrays of Objects
 
+### Homework
 
++ Start from the array objects project example and modify the update function() (and optionally the display() function as well) so that it exhibits an entirely different behavior
 
 
 

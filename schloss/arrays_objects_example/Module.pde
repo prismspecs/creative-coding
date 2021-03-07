@@ -1,3 +1,5 @@
+float gravity = 2;
+
 class Ball {
   // the properties of each Ball object
   float xSpeed;
@@ -14,14 +16,20 @@ class Ball {
     
     // generate a random speed
     xSpeed = random(-10,10);
-    ySpeed = random(-10,10);
+    //ySpeed = random(-10,10);
+    
+    ySpeed = 0;
   }
   
   // custom method for updating the variables
   void update() {
     // move the ball
-    xPos = xPos + xSpeed;
-    yPos = yPos + ySpeed;
+    //xPos = xPos + xSpeed;
+    //yPos = yPos + ySpeed;
+    
+    yPos += ySpeed;
+    ySpeed += gravity;
+   
     
     // test for collisions
     if(xPos > width) {
