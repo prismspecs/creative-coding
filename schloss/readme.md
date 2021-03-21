@@ -82,7 +82,45 @@
 
 ### Big Ideas
 
-+ Loops maybe? Gosh I don't know yet
++ For Loops
+
+### Processing Lab
+
++ Functions used ([use the reference to review](https://processing.org/reference/)):
+	+ for()
+	+ line()
+
+### Homework
+
++ Create a riff on Music Mouse. Focus on graphically creating the grid and mouse interaction, and if you are feeling saucy add sound or other elements
+
+## Day 5
+
+### Big Ideas
+
++ Objects
++ Arrays
++ Creating your own Functions
+
+### Processing Lab
+
+## Day 6
+
+### Big Ideas
+
++ Week 5 Review
+
+### Processing Lab
+
++ Using arrays to make a random selection from a discrete set
++ Creating bubbles with life cycles using Arrays of Objects
+
+### Homework
+
++ Start from the array objects project example and modify the update function() (and optionally the display() function as well) so that it exhibits an entirely different behavior
+
+
+
 
 <!-- ignore the shit below this line 
 + Functions used ([use the reference to review](https://processing.org/reference/)):
