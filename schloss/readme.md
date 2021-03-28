@@ -119,8 +119,10 @@
 
 + Start from the array objects project example and modify the update function() (and optionally the display() function as well) so that it exhibits an entirely different behavior
 
+## Day 7
 
-
+OpenCV
++ For reference, [Dan Shiffman's FaceIt repo](https://github.com/shiffman/Face-It)
 
 <!-- ignore the shit below this line 
 + Functions used ([use the reference to review](https://processing.org/reference/)):
