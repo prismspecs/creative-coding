@@ -1,43 +1,74 @@
-PImage img;       // The source image
-int cellsize = 2; // Dimensions of each cell in the grid
-int cols, rows;   // Number of columns and rows in our system
+PImage img;  // create a PImage object
+
+int numPixels = 0;
+
+float rotY = 0;  // y rotation
+float zoom = 1;
+
+int chunkSize =2;
+
+int scanUpTo = 0;
 
 
 void setup() {
-  size(2080, 1592, P3D); 
+  size(500, 500, P3D);
 
-  img = loadImage("noaa18-bw-half.png");
-  cols = img.width/cellsize;             // Calculate # of columns
-  rows = img.height/cellsize;            // Calculate # of rows
-  
+  //img = loadImage("noaa18-bw-half.png");
+  img = loadImage("grayson.jpg");
+
+  // find total number of pixels in the image
+  numPixels = img.width * img.height;
+  println(numPixels, "pixels in the image");
 }
 
-float rot;
 
 void draw() {
-  background(0);
+  //image(img, 0, 0);
+
+  background(126);
+
+  // establish a new origin point for rotation
+  translate(width/2, height/2);
+
+  scale(.7);
+  zoom += .05;
+
+  // rotate it
+  rotateY(rotY);
+  rotY += .002;
+
+  // optionally, only draw up to a certain pixel #
+  //scanUpTo+=40;
+  //if (scanUpTo>numPixels) {
+  //  scanUpTo = numPixels;
+  //}
   
-  translate(width/4,img.height/2,0);
-  rotateX(rot+=.01);
-  
-  // Begin loop for columns
-  for ( int i = 0; i < cols; i++) {
-    // Begin loop for rows
-    for ( int j = 0; j < rows; j++) {
-      int x = i*cellsize + cellsize/2; // x position
-      int y = j*cellsize + cellsize/2; // y position
-      int loc = x + y*img.width;           // Pixel array location
-      color c = img.pixels[loc];       // Grab the color
-      // Calculate a z position as a function of mouseX and pixel brightness
-      float z = (mouseX/(float)width) * brightness(img.pixels[loc]) - 100.0;
-      // Translate to the location, set fill and stroke, and draw the rect
-      pushMatrix();
-      translate(x, y - img.height/2, z);
-      fill(c);
-      noStroke();
-      rectMode(CENTER);
-      rect(0, 0, cellsize, cellsize);
-      popMatrix();
-    }
+  // loop thru all the pixels in the image
+  for (int i = 0; i < numPixels; i+=chunkSize) {
+    // find the color of the pixel
+    float br = brightness(img.pixels[i]);
+
+
+
+    // figure out X and Y
+    int x = i % img.width;
+    int y = int(i / img.width);
+
+    // draw it
+    pushMatrix();
+    translate(x - img.width/2, y - img.height/2, br);
+    noStroke();
+    fill(img.pixels[i]);
+
+    //if (br < 120 && br > 28) {
+    //  fill(0,255,0);
+    //  br = map(br, 0, 40, -100, 40);
+    //}
+
+
+    rect(0, 0, chunkSize, 1);
+    popMatrix();
   }
+  // save the frame
+  saveFrame("output/######-img.png");
 }
