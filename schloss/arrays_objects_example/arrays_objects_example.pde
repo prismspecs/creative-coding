@@ -9,7 +9,7 @@ int count = 0;
 void setup() {
   size(640, 360);
   noStroke();
-
+  
   // make space for 1000 objects
   ball = new Ball[1000];
 
