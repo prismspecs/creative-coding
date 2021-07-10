@@ -36,6 +36,8 @@
 + [background()](https://p5js.org/reference/#/p5/background)
 	+ Sets the background color of the sketch
 
++ [RGB Color](https://p5js.org/learn/color.html)
+
 + [fill()](https://p5js.org/reference/#/p5/fill)
 	+ Sets the "fill" color of the next drawn shapes
 
@@ -48,7 +50,7 @@
 + [width](https://p5js.org/reference/#/p5/width), [height](https://p5js.org/reference/#/p5/height)
 	+ Variables that store the width and height of the canvas
 
-+ [mouseX](https://p5js.org/reference/#/p5/mousex), [mousey](https://p5js.org/reference/#/p5/mousey)
++ [mouseX](https://p5js.org/reference/#/p5/mousex), [mouseY](https://p5js.org/reference/#/p5/mousey)
 	+ Variables that store the mouse's X and Y position
 
 + [rect()](https://p5js.org/reference/#/p5/rect) and [rectMode()](https://p5js.org/reference/#/p5/rectMode)
