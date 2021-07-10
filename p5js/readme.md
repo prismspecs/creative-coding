@@ -15,6 +15,11 @@
 + [Fireworks](https://happycoding.io/examples/p5js/creating-classes/fireworks)
 + [3d graphics](https://p5js.org/examples/3d-geometries.html)
 
+## Examples of JavaScript projects in other frameworks
+
++ [A-Frame](https://aframe.io/aframe/examples/)
++ [Three.js](https://threejs.org/examples/#webgl_animation_keyframes)
+
 ## Further watching/reading for self learning
 
 + The best resource for learning P5.js in my opinion is definitely the wonderful Dan Shiffman's YouTube channel [The Coding Train](https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw). I also like [Happy Coding](https://happycoding.io/tutorials/p5js/)
@@ -29,11 +34,28 @@
 	+ Something to draw to!
 
 + [background()](https://p5js.org/reference/#/p5/background)
-+ [fill()](https://p5js.org/reference/#/p5/fill)
-+ [stroke()](https://p5js.org/reference/#/p5/stroke)
-+ [noStroke()](https://p5js.org/reference/#/p5/noStroke)
-+ [width](https://p5js.org/reference/#/p5/width), [height](https://p5js.org/reference/#/p5/height)
-+ [rect()](https://p5js.org/reference/#/p5/rect) and [rectMode()](https://p5js.org/reference/#/p5/rectMode)
-+ [ellipse()](https://p5js.org/reference/#/p5/ellipse)
-+ [random()](https://p5js.org/reference/#/p5/random)
+	+ Sets the background color of the sketch
 
++ [fill()](https://p5js.org/reference/#/p5/fill)
+	+ Sets the "fill" color of the next drawn shapes
+
++ [stroke()](https://p5js.org/reference/#/p5/stroke)
+	+ Sets the outline color of the next drawn shapes
+
++ [noStroke()](https://p5js.org/reference/#/p5/noStroke)
+	+ Tells the computer to *not* draw an outline for the next shapes
+
++ [width](https://p5js.org/reference/#/p5/width), [height](https://p5js.org/reference/#/p5/height)
+	+ Variables that store the width and height of the canvas
+
++ [mouseX](https://p5js.org/reference/#/p5/mousex), [mousey](https://p5js.org/reference/#/p5/mousey)
+	+ Variables that store the mouse's X and Y position
+
++ [rect()](https://p5js.org/reference/#/p5/rect) and [rectMode()](https://p5js.org/reference/#/p5/rectMode)
+	+ Draw a rectangle
+
++ [ellipse()](https://p5js.org/reference/#/p5/ellipse)
+	+ Draw an ellipse
+
++ [random()](https://p5js.org/reference/#/p5/random)
+	+ Generate a random number
