@@ -38,6 +38,8 @@
 
 + [RGB Color](https://p5js.org/learn/color.html)
 
++ [Comments](https://p5js.org/examples/structure-comments-and-statements.html)
+
 + [fill()](https://p5js.org/reference/#/p5/fill)
 	+ Sets the "fill" color of the next drawn shapes
 
