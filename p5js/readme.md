@@ -27,6 +27,8 @@
 
 ## Introduction
 
++ [Click here to load the P5.js web editor](https://editor.p5js.org)
+
 + [setup()](https://p5js.org/reference/#/p5/setup) and [draw()](https://p5js.org/reference/#/p5/draw)
 	+ Remember, "void setup()" happens once when the program launches, and "void draw()" happens over and over again forever in a loop after that
 
