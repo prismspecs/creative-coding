@@ -103,3 +103,40 @@ function draw() {
 
 }
 ```
+
+## Example 2
+```
+function setup() {
+
+  createCanvas(400, 400);
+
+  // one number for grayscale
+  background(0);
+
+  //noStroke();
+
+}
+
+function draw() {
+
+  // semi-transparent background
+  background(0, 5);
+
+  // semi-transparent outline
+  stroke(0, 20);
+
+  // random outline thickness!
+  strokeWeight(random(20));
+
+  // randomish color!
+  fill(255,0,random(255));
+
+  // draw a circle at the mouse's position
+  ellipse(mouseX, mouseY, 40, 40);
+
+  // draw a mirrored circle?
+  ellipse(width-mouseX, mouseY, 40, 40);
+
+
+}
+```
