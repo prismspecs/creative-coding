@@ -65,3 +65,41 @@
 
 + [random()](https://p5js.org/reference/#/p5/random)
 	+ Generate a random number
+
+
+## Example 1
+```
+function setup() {
+
+  // the createCanvas function needs a
+  // width and a height (in pixels)
+  createCanvas(400, 400);
+
+  // change the outline color
+  //stroke(255, 255, 255);
+
+  // remove outlines entirely
+  noStroke();
+
+}
+
+function draw() {
+
+  // set the background color in RGB
+  // 0 -> 255 ... 0% -> 100%
+  background(100, 20, 100);
+
+  // fill the next shape red
+  fill(255, 0, 0);
+
+  // draw a rectangle
+  rect(200, 200, 200, 200);
+
+  // fill the second rectangle
+  fill(0, 0, 255, 127);
+
+  // draw another rectangle on top
+  rect(150, 220, 100, 100);
+
+}
+```
