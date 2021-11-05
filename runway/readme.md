@@ -46,6 +46,7 @@ In this workshop you’ll learn about how GANs work and then utilize a pre-train
 
 ## Wrap up
 
-## Further tutorials on RunwayML
+## Beyond
 
-+ https://www.youtube.com/watch?v=-YnWpbwsr_E
++ [Tutorial series on RunwayML](https://www.youtube.com/watch?v=-YnWpbwsr_E)
++ [StyleGan3!](https://www.youtube.com/watch?v=sd2Gn-FBM2w)
