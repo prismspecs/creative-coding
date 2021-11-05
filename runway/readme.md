@@ -20,6 +20,11 @@ In this workshop you’ll learn about how GANs work and then utilize a pre-train
 + [GAN.style](https://gan.style/_D0ZQPqeJkk)
 + [NVidia StyleGan2 - ThisPersonDoesNotExist.com](https://thispersondoesnotexist.com/)
 
+### Critical Work
+
++ [Kate Crawford & Trevor Paglen - ImageNet Roulette](https://news.artnet.com/art-world/imagenet-roulette-trevor-paglen-kate-crawford-1658305)
++ [Nooscope.ai](https://nooscope.ai)
+
 ### What is a GAN?
 
 + [What is a GAN?](https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/)
