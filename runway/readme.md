@@ -12,6 +12,14 @@ In this workshop you’ll learn about how GANs work and then utilize a pre-train
 
 ### Creative GAN projects
 
++ https://genekogan.com/works/style-transfer/
++ [StyleGan2 real time latent space exploration](https://www.youtube.com/watch?v=bRrS74RXsSM&feature=emb_title)
++ [Derrick Schultz](https://artificial-images.com/)
++ [Memo Akten](http://www.memo.tv/works/deep-meditations/]
++ [Holly+](https://holly.plus/)
++ [GAN.style](https://gan.style/_D0ZQPqeJkk)
++ [NVidia StyleGan2 - ThisPersonDoesNotExist.com](https://thispersondoesnotexist.com/)
+
 ### What is a GAN?
 
 ### Latent Space
