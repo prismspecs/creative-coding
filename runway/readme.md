@@ -19,6 +19,7 @@ In this workshop you’ll learn about how GANs work and then utilize a pre-train
 + [Holly+](https://holly.plus/)
 + [GAN.style](https://gan.style/_D0ZQPqeJkk)
 + [NVidia StyleGan2 - ThisPersonDoesNotExist.com](https://thispersondoesnotexist.com/)
++ [Projecting Images into SG2](https://github.com/woctezuma/stylegan2-projecting-images)
 
 ### Critical Work
 
