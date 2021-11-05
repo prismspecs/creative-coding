@@ -15,16 +15,22 @@ In this workshop you’ll learn about how GANs work and then utilize a pre-train
 + https://genekogan.com/works/style-transfer/
 + [StyleGan2 real time latent space exploration](https://www.youtube.com/watch?v=bRrS74RXsSM&feature=emb_title)
 + [Derrick Schultz](https://artificial-images.com/)
-+ [Memo Akten](http://www.memo.tv/works/deep-meditations/]
++ [Memo Akten](http://www.memo.tv/works/deep-meditations/)
 + [Holly+](https://holly.plus/)
 + [GAN.style](https://gan.style/_D0ZQPqeJkk)
 + [NVidia StyleGan2 - ThisPersonDoesNotExist.com](https://thispersondoesnotexist.com/)
 
 ### What is a GAN?
 
++ [What is a GAN?](https://machinelearningmastery.com/what-are-generative-adversarial-networks-gans/)
+
 ### Latent Space
 
++ [What is Latent Space?](https://towardsdatascience.com/understanding-latent-space-in-machine-learning-de5a7c687d8d)
+
 ### Training a GAN
+
++ [Training a Neural Network](https://towardsdatascience.com/how-do-we-train-neural-networks-edd985562b73)
 
 ## Introduction to RunwayML
 
@@ -33,3 +39,7 @@ In this workshop you’ll learn about how GANs work and then utilize a pre-train
 ### Latent Space Walks
 
 ## Wrap up
+
+## Further tutorials on RunwayML
+
++ https://www.youtube.com/watch?v=-YnWpbwsr_E
